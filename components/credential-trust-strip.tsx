@@ -16,7 +16,7 @@ export default function CredentialTrustStrip() {
           <strong>Built with PLI domain training.</strong>{" "}
           15-hour Postal Life Insurance training completed and Licentiate examination passed (76%).
         </p>
-        <Link href="/credentials/pli-training-certificate.pdf" target="_blank">
+        <Link href="/credentials">
           View credential <span aria-hidden="true">↗</span>
         </Link>
       </div>
