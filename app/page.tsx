@@ -1125,7 +1125,7 @@ export default function Home() {
         </div>
       </section>
       <footer>
-        Designed for smarter Postal Life Insurance planning · Calculator inputs are not saved
+        Designed for smarter Postal Life Insurance planning · <Link href="/privacy">Privacy</Link> · <Link href="/license">License</Link> · <a href="https://github.com/theajit/postal-pli-plan" rel="noreferrer">GitHub</a>
       </footer>
     </main>
   );
