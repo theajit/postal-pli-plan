@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <rect width="64" height="64" rx="15" fill="#c51f2b"/>
   <path d="M0 47h64v17H0z" fill="#a91422"/>
-  <circle cx="49" cy="15" r="6" fill="#f3a51f"/>
-  <path d="M19 15h17c9 0 15 5 15 13s-6 13-15 13h-7v9H19V15Zm10 9v8h7c3 0 5-1 5-4s-2-4-5-4h-7Z" fill="#fff"/>
+  <circle cx="47" cy="15" r="6" fill="#f3a51f"/>
+  <text x="14" y="47" fill="#fff" font-family="Nirmala UI, Noto Sans Devanagari, sans-serif" font-size="42" font-weight="700">प</text>
 </svg>

@@ -6,7 +6,7 @@
   --paper:#fbf7ef;
 }
 body{background:linear-gradient(180deg,#fffdf9 0,#fbf6ec 54%,#f8f1e5 100%)}
-.topbar{border-bottom-color:#eaded2}.brand-mark{background:linear-gradient(145deg,#d92732,#ad111f);box-shadow:0 5px 14px rgba(177,17,29,.2)}
+.topbar{border-bottom-color:#eaded2}.brand-mark{position:relative;background:linear-gradient(145deg,#d92732,#ad111f);box-shadow:0 5px 14px rgba(177,17,29,.2)}.brand-mark:after{content:'';position:absolute;right:-1px;top:-2px;width:9px;height:9px;border:2px solid #fff;border-radius:50%;background:#f3a51f;box-sizing:border-box}
 .home-nav>a,.back-link,.breadcrumbs a,.guide-grid b,.related a span,.policy-directory small{color:#b81724}
 .secure{color:#725f5a}.card-title>span{background:#fff0e8;color:#bf1e2e}.form-card,.results-card{border-color:#e8ded4;box-shadow:0 16px 42px rgba(98,49,31,.07)}
 .selected-guide{background:#fff0e8;color:#b81724!important}.selected-guide:hover{background:#ffe1d3}.select-wrap select:focus,.suffix-input:focus-within,.money-input:focus-within{border-color:#c51f2b;box-shadow:0 0 0 3px rgba(197,31,43,.1)}
