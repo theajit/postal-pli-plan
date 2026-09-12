@@ -4,6 +4,7 @@ import './globals.css';
 import './seo.css';
 import './polish.css';
 import './india-post-theme.css';
+import './quotation.css';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
