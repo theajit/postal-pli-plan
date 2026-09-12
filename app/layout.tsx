@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import { Geist, Geist_Mono } from 'next/font/google';
+import CredentialTrustStrip from '@/components/credential-trust-strip';
 import './globals.css';
 import './seo.css';
 import './polish.css';
@@ -13,6 +14,7 @@ import './calculation-details-wide.css';
 import './font-awesome-icons.css';
 import './accessibility.css';
 import './trust-comparison.css';
+import './credential-trust.css';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -46,6 +48,7 @@ export default function RootLayout({
         suppressHydrationWarning
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <CredentialTrustStrip />
         {children}
         <Script
           id="font-awesome-kit"
