@@ -5,6 +5,8 @@ import './seo.css';
 import './polish.css';
 import './india-post-theme.css';
 import './quotation.css';
+import './quotation-modal.css';
+import './compact-results.css';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',

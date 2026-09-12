@@ -1,0 +1,2 @@
+.results-card>.quote-card{margin:0;border:0;border-top:1px solid #eaded5;border-radius:0;background:#fffaf5;box-shadow:none;transform:none}.results-card>.quote-card:hover{border-color:#eaded5;transform:none}.results-card>.quote-card .quote-trigger{padding:15px 28px;background:transparent}.results-card>.quote-card .quote-trigger:hover{background:#fff5ed}.results-card>.disclaimer{padding-bottom:17px}
+@media(max-width:520px){.results-card>.quote-card .quote-trigger{padding:15px 22px}}
