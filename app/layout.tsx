@@ -12,6 +12,7 @@ import './calculation-details.css';
 import './calculation-details-wide.css';
 import './font-awesome-icons.css';
 import './accessibility.css';
+import './trust-comparison.css';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',

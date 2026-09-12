@@ -1098,6 +1098,14 @@ export default function Home() {
           </div>
         </details>
       </section>
+      <section className="home-tools" aria-labelledby="planning-tools-title">
+        <p className="eyebrow">TRUST &amp; DECISION TOOLS</p>
+        <h2 id="planning-tools-title">Compare clearly. Calculate privately.</h2>
+        <div className="home-tool-grid">
+          <Link href="/compare"><span>POLICY COMPARISON</span><strong>Compare PLI with PLI—or RPLI with RPLI</strong><p>Place two policies from the same family side by side to review term, eligibility basis, premiums and benefits.</p><b>Open comparison engine →</b></Link>
+          <Link href="/privacy"><span>PRIVACY &amp; TECHNOLOGY</span><strong>See how calculator data is handled</strong><p>Understand the browser-only calculation flow, technology stack and precise limits of the no-storage claim.</p><b>Review our data flow →</b></Link>
+        </div>
+      </section>
       <section className="guides">
         <p className="eyebrow">POLICY GUIDES</p>
         <h2>Understand every PLI &amp; RPLI plan</h2>
@@ -1117,7 +1125,7 @@ export default function Home() {
         </div>
       </section>
       <footer>
-        Designed for smarter Postal Life Insurance planning · No data is stored
+        Designed for smarter Postal Life Insurance planning · Calculator inputs are not saved
       </footer>
     </main>
   );
