@@ -1,0 +1,16 @@
+/* Accessibility and readable type scale */
+html{font-size:16px;scroll-behavior:smooth}body{line-height:1.5}
+button,select,input,summary,a{font-family:inherit}
+button,select,input{min-height:44px}
+:where(a,button,input,select,summary):focus-visible{outline:3px solid #1b64b0!important;outline-offset:3px!important;box-shadow:none!important}
+input::placeholder{color:#756964;opacity:1}
+.card-title p,.secure,.intro>p{color:#625a56}
+label{font-size:.8rem}.segments button{font-size:.75rem}.notice{font-size:.78rem}.range-labels{font-size:.72rem;color:#655c58}
+.result-head p,.breakdown span,.premium-block span,.stats span{font-size:.78rem}.legend{font-size:.72rem;color:#625a56}.disclaimer{font-size:.72rem;line-height:1.55;color:#665d59}
+.quote-trigger b{font-size:.9rem}.quote-trigger small{font-size:.75rem;color:#655b57}.quote-trigger>strong{font-size:.75rem}.privacy-note,.contact-hint{font-size:.72rem!important}
+.calculation-details summary{min-height:64px}.calculation-details summary b{font-size:.95rem}.calculation-details summary small{font-size:.76rem;color:#655c58}.calculation-details summary>i{font-size:.78rem!important}
+.details-content h3{font-size:.78rem;letter-spacing:.065em}.details-content h3 span{font-size:.66rem}.details-content dl>div{min-height:38px;align-items:center;padding:9px 11px;font-size:.82rem;line-height:1.35}.details-content dt{color:#5e5551}.details-content dd{font-size:.84rem}.details-note{font-size:.74rem!important;line-height:1.55!important;color:#625955!important}
+.guide-grid span,.related a span,.policy-directory span{font-size:.75rem}.guide-grid small,.policy-directory small{font-size:.68rem}
+@media(max-width:520px){input,select{font-size:1rem}.details-content dl>div{font-size:.8rem}.details-content dd{font-size:.81rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+@media(forced-colors:active){.result-head,.download-quote,.quote-trigger>strong{border:1px solid ButtonText}.bar span,.bar{forced-color-adjust:auto}.selected-guide,.notice,.gain{border:1px solid CanvasText}}

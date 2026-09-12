@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import './seo.css';
@@ -7,6 +8,10 @@ import './india-post-theme.css';
 import './quotation.css';
 import './quotation-modal.css';
 import './compact-results.css';
+import './calculation-details.css';
+import './calculation-details-wide.css';
+import './font-awesome-icons.css';
+import './accessibility.css';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -23,6 +28,10 @@ export const metadata: Metadata = {
   title: { default: 'PostalPlan — PLI & RPLI Calculator', template: '%s | PostalPlan' },
   description: 'Estimate Postal Life Insurance premium, maturity value, bonus and gain.',
   alternates: { canonical: '/' },
+  icons: {
+    icon: [{ url: '/icon.svg', type: 'image/svg+xml' }],
+    shortcut: '/icon.svg',
+  },
 };
 
 export default function RootLayout({
@@ -37,6 +46,12 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <Script
+          id="font-awesome-kit"
+          src="https://kit.fontawesome.com/3a7f112929.js"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
