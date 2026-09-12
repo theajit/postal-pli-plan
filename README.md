@@ -94,4 +94,6 @@ PostalPlan provides planning estimates, not an insurance quotation or financial 
 
 ## License
 
-No licence file is currently included. Until a licence is added, copyright remains with the repository owner and normal GitHub viewing and contribution permissions apply.
+This project is licensed under the [GNU Affero General Public License v3.0](LICENSE).
+
+If you modify PostalPlan and make it available over a network, you must provide users access to the corresponding source code under the AGPL-3.0 terms.
